@@ -19,7 +19,4 @@ public class SecFunction extends Function {
     }
 
 
-    public static void main(String[] args) {
-        System.out.println(new SecFunction(0.0001, new CosFunction(0.0001, new SinFunction(0.0001))).calculate(Math.PI/2));
-    }
 }

@@ -40,7 +40,4 @@ public class SinFunction extends Function {
     }
 
 
-    public static void main(String[] args) {
-        System.out.println(new SinFunction(0.000001).calculate(-Math.PI/2));
-    }
 }

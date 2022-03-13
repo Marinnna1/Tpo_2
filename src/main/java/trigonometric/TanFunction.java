@@ -21,9 +21,4 @@ public class TanFunction extends Function {
         return Double.isFinite(tan) ? tan : Double.POSITIVE_INFINITY;
     }
 
-
-    public static void main(String[] args) {
-        System.out.println(new TanFunction(0.0001, new SinFunction(0.0001),
-                new CosFunction(0.0001, new SinFunction(0.0001))).calculate(Math.PI));
-    }
 }

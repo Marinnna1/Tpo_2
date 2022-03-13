@@ -30,7 +30,4 @@ public class CosFunction extends Function {
     }
 
 
-    public static void main(String[] args) {
-        System.out.println(new CosFunction(0.0001, new SinFunction(0.0001)).calculate(Math.PI/6));
-    }
 }
